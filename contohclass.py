@@ -30,7 +30,19 @@ class Flight:
     def airline(self):
         return self._number[:2]
 
-class Aircraft
+class Aircraft:
+    def __init__(self,registration,model,num_rows,num_seats_per_row):
+        self._registration=registration
+        self._model=model
+        self._num_row=num_rows
+        self._num_seats_per_row
+    
+    def registration(self):
+        return self._registration
+
+    def model(self):
+        return self._model
+
 
 try:
     f=Flight("IW123")
